@@ -8,8 +8,13 @@ Personalized Mandarin Reading Learning Assistant 情勒橘子
 [Enter a brief description of your project, including the data you used and the analytical methods you applied. Be sure to provide context for your project and explain why it is important.]
 
 ## Getting Started
+The codes for now can only run on Google Colab, you will need secrets of OpenAI's api key'OPENAI_API_KEY' and MongoDB URL 'MGDB_IAI'. 
+Codes that can run on local devices are still under development.
 
-[Provide instructions on how to get started with your project, including any necessary software or data. Include installation instructions and any prerequisites or dependencies that are required.]
+
+To see the user interface and result, download and run `0525LLM(Peggy).ipynb` on Colab.
+
+
 
 ## File Structure
 
