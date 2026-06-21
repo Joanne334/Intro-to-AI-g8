@@ -1,6 +1,7 @@
 # Project Title
 
-[Enter the title of your project]
+Personalized Mandarin Reading Learning Assistant 情勒橘子
+
 
 ## Project Description
 
@@ -17,7 +18,7 @@
 ## Analysis
 #### Preprocessing
 For preprocessing, texts including poems, children’s literature, and textbooks are extracted from various sources and converted into a standardized format.
-This data is then segmented into sentences and tokenized using CKIP transformers to analysis the word and sentence levels.
+This data is then segmented into sentences and tokenized using CKIP transformers to analyze the word and sentence levels.
 
 #### Score levels
 To quantify text difficulty, we employ NAER’s TOCFL levels. We will calculate an average proficiency score for each reading material by averaging the difficulty levels(1 to 7) of its constituent words. 
