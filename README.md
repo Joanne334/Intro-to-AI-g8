@@ -69,7 +69,7 @@ Intro-to-AI-g8/
     * processed_segments_with_ckip_文本.csv
 	    * This file shows the source and length for each processed Mandarin text segment, and outputs after undergone word segmentation (WS) and part-of-speech tagging (POS) model.
     * processed_segments_with_ckip_詩集.csv
-	    * This file shows the source and length for each processed Mandarin poem segment, and outputs after undergone word segmentation (WS) and part-of-speech tagging (POS) model.
+	    * This file shows the source and length for each processed Mandarin poem segment, and outputs after undergone WS and POS model.
     * 漢字與詞語.csv
 	    * This file presents Mandarin characters/words TOCFL level from 1 to 7.
 
