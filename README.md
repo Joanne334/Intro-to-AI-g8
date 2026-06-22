@@ -63,7 +63,7 @@ Intro-to-AI-g8/
 	    * This file includes 273 segmented texts which have been labeled to level 1 to level 7, based on leveling rules designed by us.
       * The leveling formula is shown below:
         <p align="center">
-          <img src="https://raw.githubusercontent.com/joannaworkie/Final-Paper-.jpg/main/formula.jpg" width="500">
+          <img src="https://raw.githubusercontent.com/joannaworkie/Final-Paper-.jpg/main/formula.jpg" width="300">
         </p>
 	    * eg. There are 10 valid word counts within a sentence. If 8 of them are in level 1, 1 of them is in level 2, and 1 of them is in level 3, the total score will be calculated as: (8×1)+(1×2)+(1×3)=13. The average score of the sentence would be calculated as the total score divided by valid word counts, which is 13/10​=1.3. The final level for the sentence would be rounded into level 1 from 1.3.
     * processed_segments_with_ckip_文本.csv
