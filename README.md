@@ -136,17 +136,27 @@ We would like to thank Professor Pieng and teaching assistant Yo Yo for providin
 ## References
 
 + Literature
-    * George R. Klare. 2000. The measurement of readability: useful information for communicators. ACM J. Comput. Doc. 24, 3 (Aug. 2000), 107–121. https://doi.org/10.1145/344599.344630
-    * Tsai, Y. H., & Chang, M. I. (2025). Language Policy on Chinese as a Second Language in Taiwan. In Language Policy (The Netherlands) (pp. 169-196). (Language Policy (The Netherlands); Vol. 38). Springer Nature. https://doi.org/10.1007/978-3-031-93490-2_9
+    * Klare, G. R. (2000). The measurement of readability: Useful information for communicators. ACM Journal of Computer Documentation, 24(3), 107–121. https://doi.org/10.1145/344599.344630
+    * Tsai, Y. H., & Chang, M. I. (2025). Language policy on Chinese as a second language in Taiwan. In Language Policy (Vol. 38, pp. 169–196). Springer Nature. https://doi.org/10.1007/978-3-031-93490-2_9
 
 + Data Sources
-    * 115 Mandarin readings as training data, including 37 poems by Yang Huan, 1 elementary school poem, 1 Taiwanese folktale, 25 introductions to Taiwan' street food and culture, 10 children’s literature, 20 readings from elementary school textbook, and 21 Mandarin speech contest texts.
-    * 1 mock user input data, for the use of system testimonials and demonstration.
-    * National Academy for Educational Research (https://coct.naer.edu.tw/page.jsp?ID=41)
-      * 三等七級詞語表
-      * 漢字表
-      * 類詞綴表
-      * 語法點表
+    * Training Corpus (115 texts)
+      * 37 poems by Yang Huan
+      * 25 readings on Taiwanese street food and culture
+      * 10 children's literature texts
+      * 20 elementary school textbook readings
+      * 21 Mandarin speech contest texts
+      * 1 elementary school poem
+      * 1 Taiwanese folktale
+    * Testing Corpus
+      * 1 mock user input text for system testing and demonstration
+    * Chinese Language Resources
+      * National Academy for Educational Research (NAER) https://coct.naer.edu.tw/page.jsp?ID=41
+      * Resources used:
+        * TOCFL Vocabulary List (Levels 1–7)
+        * Chinese Character List
+        * Affix List
+        * Grammar Point List
 
 + Methods
     * Retrieval-Augmented Generation (RAG)
