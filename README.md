@@ -28,11 +28,12 @@ Intro-to-AI-g8/
 │   ├── 0511CKIP(Joanne).ipynb
 │   ├── 0519詩CKIP(Joanne).ipynb
 │   ├── 0522詞語分級_新的演算法(Peggy).ipynb
-│   ├── 0523匯入RAG_LLM(Joanne).ipynb
+│   ├── Group8_期末專題RAG.ipynb
 │   └── 0525LLM(Peggy).ipynb
 │
 ├── csv/
-│   ├── labeled_training_data.csv
+│   ├── labeled_training_data_文本.csv
+│   ├── labeled_training_data_詩集.csv
 │   ├── processed_segments_with_ckip_文本.csv
 │   ├── processed_segments_with_ckip_詩集.csv
 │   └── 漢字與詞語.csv
@@ -53,19 +54,21 @@ Intro-to-AI-g8/
 	    * This colab file is specifically for poem tokenization.
     * 0522詞語分級_新的演算法(Peggy).ipynb
 	    * This colab file is to label the processed training data with the levels provided by National Academy for Educational Research. 
-    * 0523匯入RAG_LLM(Joanne).ipynb
+    * Group8_期末專題RAG.ipynb
 	    * This colab file is to upload trained data and rubric data on MongoDB to construct our RAG for futher LLM training. 
     * 0525LLM(Peggy).ipynb
 	    * This colab file is to train our LLM to rewrite text based on RAG. Afterward, we design an interactive quiz and an accuracy indicator demonstrating via Gradio interface.
 
 + csv/
-    * labeled_training_data.csv
-	    * This file includes 273 segmented texts which have been labeled to level 1 to level 7, based on leveling rules designed by us.
+    * labeled_training_data_文本.csv
+	    * This file includes 272 segmented texts which have been labeled to level 1 to level 7, based on leveling rules designed by us.
       * The leveling formula is shown below:
         <p align="center">
           <img src="https://raw.githubusercontent.com/joannaworkie/Final-Paper-.jpg/main/formula.jpg" width="300">
         </p>
 	    * eg. There are 10 valid word counts within a sentence. If 8 of them are in level 1, 1 of them is in level 2, and 1 of them is in level 3, the total score will be calculated as: (8×1)+(1×2)+(1×3)=13. The average score of the sentence would be calculated as the total score divided by valid word counts, which is 13/10​=1.3. The final level for the sentence would be rounded into level 1 from 1.3.
+    * labeled_training_data_詩集.csv
+	    * This file includes 50 segmented poems which have been labeled to level 1 to level 7, based on leveling rules explained above.
     * processed_segments_with_ckip_文本.csv
 	    * This file shows the source and length for each processed Mandarin text segment, and outputs after undergone word segmentation (WS) and part-of-speech tagging (POS) model.
     * processed_segments_with_ckip_詩集.csv
